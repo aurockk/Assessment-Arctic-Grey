@@ -134,14 +134,19 @@ Merchants can:
 - Prevents checkout submission if a blocked date is selected
 - Metafield values are loaded dynamically
 
+---
+
 ## 🧪 How to Run
 
 ### Development
 ```bash
 shopify app dev
---
+```
 ### Build & Deploy Extension 
+```bash
 shopify app deploy
+```
+---
 
 ## ⚠️ Known Issue
 Despite correct metafield configuration and extension bundling, the Checkout UI Extension is not rendering in the checkout. This is likely due to Shopify's current restriction on using purchase.checkout.block.render in draft configurations, or due to an existing live checkout configuration conflicting with the extension.
@@ -167,9 +172,10 @@ To use it:
 2. Visit the route in the browser while your app is running.
 3. Comment it again after use.
 
+---
 
-## Author 
+## 👤 Author 
 Auristela Diaz 
 
-## License 
+## 📜 License 
 This project was developed as part of a technical assessment and is not licensed for commercial use without permission.
