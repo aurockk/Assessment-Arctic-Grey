@@ -1,0 +1,17 @@
+api_version = "2025-04"
+
+[[extensions]]
+name = "delivery-date-selector"
+type = "ui_extension"
+handle = "delivery-date-selector"
+
+[[extensions.targeting]]
+target = "purchase.checkout.block.render"
+module = "./src/Checkout.tsx"
+
+[extensions.capabilities]
+api_access = true
+
+[[extensions.metafields]]
+namespace = "delivery_settings"
+key = "config"

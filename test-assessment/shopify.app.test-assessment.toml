@@ -1,0 +1,32 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "406ff1d226f8b7aa6401cf9c48aaebfb"
+name = "test-assessment"
+handle = "test-assessment-3"
+application_url = "https://english-opened-customers-tan.trycloudflare.com"
+embedded = true
+
+[build]
+include_config_on_deploy = true
+automatically_update_urls_on_dev = true
+
+[webhooks]
+api_version = "2025-04"
+
+[access_scopes]
+admin = [
+  "write_products",
+  "read_products",
+  "write_metafields",
+  "read_metafields"
+]
+
+[auth]
+redirect_urls = [
+  "https://english-opened-customers-tan.trycloudflare.com/auth/callback",
+  "https://english-opened-customers-tan.trycloudflare.com/auth/shopify/callback",
+  "https://english-opened-customers-tan.trycloudflare.com/api/auth/callback"
+]
+
+[pos]
+embedded = true

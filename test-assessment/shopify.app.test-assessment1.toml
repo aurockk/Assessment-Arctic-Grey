@@ -1,0 +1,32 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "2a4690fdf19811c6431f8afcad05832e"
+name = "test-assessment"
+handle = "test-assessment-4"
+application_url = "https://journalism-allowance-luis-birthday.trycloudflare.com"
+embedded = true
+
+[build]
+automatically_update_urls_on_dev = true
+include_config_on_deploy = true
+
+[webhooks]
+api_version = "2025-04"
+
+[access_scopes]
+admin = [
+  "write_products",
+  "read_products",
+  "write_metafields",
+  "read_metafields"
+]
+
+[auth]
+redirect_urls = [
+  "https://journalism-allowance-luis-birthday.trycloudflare.com/auth/callback",
+  "https://journalism-allowance-luis-birthday.trycloudflare.com/auth/shopify/callback",
+  "https://journalism-allowance-luis-birthday.trycloudflare.com/api/auth/callback"
+]
+
+[pos]
+embedded = true
