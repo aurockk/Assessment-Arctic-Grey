@@ -87,6 +87,8 @@ The Checkout UI Extension is not currently rendered in the checkout preview due 
 
 - Admin dashboard with blocked days
 - Date range editor modal
+![image](https://github.com/user-attachments/assets/c5a38282-74cf-4278-9093-0f6d1105c6ce)
+![image](https://github.com/user-attachments/assets/5b1cf4ba-b8d1-436b-9f4c-ee4d668ab288)
 
 ---
 
