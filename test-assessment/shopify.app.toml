@@ -3,7 +3,7 @@
 client_id = "f1583d996bfacc27e1314a91930f04a2"
 name = "Test-assessment"
 handle = "test-assessment-2"
-application_url = "https://aqua-competitive-cylinder-calendars.trycloudflare.com"
+application_url = "https://bridal-directions-milwaukee-artist.trycloudflare.com"
 embedded = true
 
 [webhooks]
@@ -23,9 +23,9 @@ scopes = "read_checkouts,write_checkouts,write_customers,write_draft_orders,writ
 
 [auth]
 redirect_urls = [
-  "https://aqua-competitive-cylinder-calendars.trycloudflare.com/auth/callback",
-  "https://aqua-competitive-cylinder-calendars.trycloudflare.com/auth/shopify/callback",
-  "https://aqua-competitive-cylinder-calendars.trycloudflare.com/api/auth/callback"
+  "https://bridal-directions-milwaukee-artist.trycloudflare.com/auth/callback",
+  "https://bridal-directions-milwaukee-artist.trycloudflare.com/auth/shopify/callback",
+  "https://bridal-directions-milwaukee-artist.trycloudflare.com/api/auth/callback"
 ]
 
 [pos]
